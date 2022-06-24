@@ -57,7 +57,7 @@ The following transformations summarizes the steps done with regards to cleaning
 
 - Apply a standardized scaler to the final dataframe set.
 
-### Note: Transformations and scaling of the testing set was not performed until after assessing the R2 scores after each model was test. However, cross-validation was performed on the test set throughout each iterative model, which was a good indicator that the test set will also perform well after trasnformation and scaling.
+#### Note: Transformations and scaling of the testing set was not performed until after assessing the R2 scores after each model was test. However, cross-validation was performed on the test set throughout each iterative model, which was a good indicator that the test set will also perform well after trasnformation and scaling.
 
 ## Modeling & Regression Results
 The following summarizes the coefficient of determination scores (R2) on each model after scaling/transforming. 
@@ -137,21 +137,22 @@ Based on the above, the 4th model is very accurate! There is some variance betwe
 ### Creating an input model to predict home prices based on predictors
 Recall, the business problem here was to determine sale prices for homes based on an input of parameters. Using the 4th model, a structured input machine was created that takes in input values for the predictors and provides an estimated price for that home. 
 
-For example: 
-SF Living: 4000 SF
-SF Above: 3000 SF
-SF Living Nearest 15: 3000 SF
-Age: 1 (New Building)
-Number of Bedrooms: 2
-Number of Bathrooms: 2
-Number of Floors: 2
-View Quality (0-4): 1 (Fair)
-Condition Quality (1-5): 4 (Good)
-Grade Quality (1-13): 7 (Average grade of construction)
-Renovated? No
-Zipcode: Seattle, WA 98112
+For example, see below inputs:
 
-Predicted Sale Price: $ 1,369,146
+SF Living: 4000 SF<br>
+SF Above: 3000 SF<br>
+SF Living Nearest 15: 3000 SF<br>
+Age: 1 (New Building)<br>
+Number of Bedrooms: 2<br>
+Number of Bathrooms: 2<br>
+Number of Floors: 2<br>
+View Quality (0-4): 1 (Fair)<br>
+Condition Quality (1-5): 4 (Good)<br>
+Grade Quality (1-13): 7 (Average grade of construction)<br>
+Renovated? No<br>
+Zipcode: Seattle, WA 98112<br>
+
+#### Predicted Sale Price: $ 1,369,146
 
 ## Conclusions & Recommendations
 - Choose the 4th Model because it had the highest R2, also has more predictors.  
