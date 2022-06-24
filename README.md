@@ -1,5 +1,9 @@
-# Housing_Market_Linear_Regression
-Phase 2 - DS Project
+# Housing Market Linear Regression
+### Eric Au
+
+<p align="center">
+  <img src = "https://media.istockphoto.com/photos/space-needle-and-seattle-downtown-picture-id507294292?k=20&m=507294292&s=612x612&w=0&h=7n3HGDSoHb79Jrltslr_-INqfSxk3MAEOhJ_U57vIPU=" width="650" height="350">
+</p> 
 
 ## The Business Problem
 
@@ -39,7 +43,7 @@ Distribution of the target variable `price` was skewed and transformed using a l
   <img src = "https://github.com/eric8395/Housing_Market_Linear_Regression/blob/main/images/scaled_saleprice_distribution.png" width="700" height="350">
 </p> 
 
-###Data Cleaning & Preprocessing
+### Data Cleaning & Preprocessing
 
 The following transformations summarizes the steps done with regards to cleaning and preprocessing and applied to the `X_test` set as follows:
 
