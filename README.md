@@ -34,7 +34,7 @@ As a baseline, the predictor variable with the highest correlation with `price` 
   <img src = "https://github.com/eric8395/Housing_Market_Linear_Regression/blob/main/images/livingroomVSprice.png" width="500" height="400">
 </p> 
 
-However, further exploration into the other predictors was needed to determine an accurate model. 
+Further exploration into the other predictors was needed to determine an accurate model. 
 
 ### Target Variable 
 Distribution of the target variable `price` was skewed and transformed using a log function to have a more normalized distribution. The target variable `price` would need to be exponentially scaled back to determine final price after conclusion of modeling. 
