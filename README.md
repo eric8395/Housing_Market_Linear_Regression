@@ -1,4 +1,4 @@
-# Housing Market Linear Regression
+# Housing Market Price Prediction
 ### Eric Au
 
 <p align="center">
