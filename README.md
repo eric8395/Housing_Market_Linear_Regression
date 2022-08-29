@@ -1,4 +1,4 @@
-# Housing Market Price Prediction
+# *Building from the Bottom Up - Predicting Housing Prices in King County*
 ### Eric Au
 
 <p align="center">
