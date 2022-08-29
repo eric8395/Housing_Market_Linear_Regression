@@ -1,4 +1,4 @@
-# Housing Market Linear Regression
+# Housing Market Price Prediction
 ### Eric Au
 
 <p align="center">
@@ -25,7 +25,7 @@ This project uses the King County House Sales dataset found in the `data` folder
 ### Baseline Model
 The target variable for this project is `price` with all other columns in the dataset chosen as preliminary predictors for this project. A 75%-25% Train-Test split was performed with `price` as the target variable, `y`. 
 
-As a baseline, the predictor variable with the highest correlation with `price` was `sqft_living` as it was the highest correlated predictor. However, this simple baseline model did not perform well. 
+As a baseline, the predictor variable with the highest correlation with `price` was `sqft_living` as it was the highest correlated predictor. However, this simple baseline model did not perform well as the R2 (Coefficient of Determination) did not explain the differences between predictor and target variable well. 
 
 `Base Training R2: 0.4848`<br>
 `Base Test R2: 0.475`
@@ -34,7 +34,7 @@ As a baseline, the predictor variable with the highest correlation with `price` 
   <img src = "https://github.com/eric8395/Housing_Market_Linear_Regression/blob/main/images/livingroomVSprice.png" width="500" height="400">
 </p> 
 
-However, further exploration into the other predictors was needed to determine an accurate model. 
+Further exploration into the other predictors was needed to determine an accurate model. 
 
 ### Target Variable 
 Distribution of the target variable `price` was skewed and transformed using a log function to have a more normalized distribution. The target variable `price` would need to be exponentially scaled back to determine final price after conclusion of modeling. 
