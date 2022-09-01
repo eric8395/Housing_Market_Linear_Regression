@@ -120,7 +120,7 @@ The final model chosen was the 4th Model since it performed the best and had the
 
 The training R2 and test R2 are very close to one another. This is good, and proves the validation process performed leading up to this point was very accurate. 
 
-Additionally, the RMSE difference between the testing and training set is about $9,000. Meaning that the model is about $9,000 off from the testing set. 
+Additionally, the RMSE on the testing and training set is about $131,000. Meaning that the model's predictions have a margin of error of about $131K. 
 
 ### Highest Priced Zipcode Areas
 Since we know that zipcode is a big predictor in this model, I was curious about which zipcodes can we expect to see the highest home prices. 
